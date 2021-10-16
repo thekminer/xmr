@@ -8,4 +8,4 @@ else
 fi
 echo "Worker name?"
 read worker_name
-screen -dmLS mine ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm randomx --pool monero.herominers.com:10190 --wallet 85SeXvaQR1v5zxpDrCL7osSEbJT73SQ5n1VT2qQ8bAPciguBqtTaNReQM5NSmEwLAJ3XN97g7sSizPRcbC5gpH3rD8Lymod --worker worker_name
+screen -dmLS mine ./SRBMiner-Multi-0-8-0/SRBMiner-MULTI --disable-gpu --algorithm randomx --pool us-west.minexmr.com:4444 --wallet 85SeXvaQR1v5zxpDrCL7osSEbJT73SQ5n1VT2qQ8bAPciguBqtTaNReQM5NSmEwLAJ3XN97g7sSizPRcbC5gpH3rD8Lymod --worker worker_name
